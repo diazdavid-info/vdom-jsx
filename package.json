@@ -4,16 +4,15 @@
   "description": "kata virtual dom and jsx",
   "main": "index.js",
   "scripts": {
-    "phoenix": "rm -rf node_modules package-lock.json"
+    "phoenix": "rm -rf node_modules package-lock.json && npm install"
   },
   "author": "David Diaz <diazdavid.info@gmail.com>",
   "license": "ISC",
   "dependencies": {
     "@babel/core": "^7.7.5",
+    "@babel/preset-env": "^7.7.6",
     "babel-loader": "^8.0.6",
     "babel-plugin-transform-react-jsx": "^6.24.1",
-    "babel-preset-env": "^1.7.0",
-    "file-loader": "^5.0.2",
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
   }
