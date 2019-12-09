@@ -4,7 +4,8 @@
   "description": "kata virtual dom and jsx",
   "main": "index.js",
   "scripts": {
-    "phoenix": "rm -rf node_modules package-lock.json && npm install"
+    "phoenix": "rm -rf node_modules package-lock.json && npm install",
+    "webpack": "webpack --devtool source-map --mode=development --watch"
   },
   "author": "David Diaz <diazdavid.info@gmail.com>",
   "license": "ISC",
